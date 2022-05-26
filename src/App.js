@@ -13,7 +13,6 @@ function App() {
       field
     ]
     );
-    console.log(fieldsList);
   }
 
   return (

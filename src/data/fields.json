@@ -13,7 +13,7 @@
   },
   {
     "id": 3,
-    "component":"input",
+    "component":"text",
     "name": "Age",
     "type": "text"
   },
@@ -30,7 +30,7 @@
   },
   {
     "id": 5,
-    "component": "radio",
+    "component": "options",
     "name": "Gender",
     "options": [
       "Male",

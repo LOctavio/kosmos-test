@@ -19,17 +19,6 @@
   },
   {
     "id": 4,
-    "component": "text",
-    "name": "Country",
-    "options": [
-      "Mexico",
-      "USA",
-      "Argentina",
-      "Chile"
-    ]
-  },
-  {
-    "id": 5,
     "component": "select",
     "name": "Country",
     "options": [
@@ -40,7 +29,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 5,
     "component": "radio",
     "name": "Gender",
     "options": [

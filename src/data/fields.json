@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "component":"text",
+    "name": "First  Name",
+    "type": "text"
+  },
+  {
+    "id": 2,
+    "component":"text",
+    "name": "Second  Name",
+    "type": "text"
+  },
+  {
+    "id": 3,
+    "component":"input",
+    "name": "Age",
+    "type": "text"
+  },
+  {
+    "id": 4,
+    "component": "text",
+    "name": "Country",
+    "options": [
+      "Mexico",
+      "USA",
+      "Argentina",
+      "Chile"
+    ]
+  },
+  {
+    "id": 5,
+    "component": "select",
+    "name": "Country",
+    "options": [
+      "Mexico",
+      "USA",
+      "Argentina",
+      "Chile"
+    ]
+  },
+  {
+    "id": 6,
+    "component": "radio",
+    "name": "Gender",
+    "options": [
+      "Male",
+      "Female",
+      "Other"
+    ]
+  }
+]

@@ -1,7 +1,7 @@
 import './List.css'
 
 const List = (props) => {
-  const  { fields } = props;
+  const  { fields, addField } = props;
 
   return (
     <div>
@@ -12,7 +12,7 @@ const List = (props) => {
           <div key={field.id} className="list">
             <span>Type: {field.component}</span>
             <span>Name: {field.name}</span>
-            <button>Add to List</button>
+            <button onClick={() => addField(field)}>Add to List</button>
           </div>
         );
       })}

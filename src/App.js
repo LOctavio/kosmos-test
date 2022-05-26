@@ -7,10 +7,19 @@ import List from './components/List';
 function App() {
   const [fieldsList, setFieldsList] = useState([]);
 
+  const addField = (field) => {
+    setFieldsList([
+      ...fieldsList,
+      field
+    ]
+    );
+    console.log(fieldsList);
+  }
+
   return (
     <div className='main-container'>
-      <Form />
-      <List fields={fields}/>
+      <Form fieldsList={fieldsList} />
+      <List fields={fields} addField={addField}/>
     </div>
   );
 }
